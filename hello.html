@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Mural OffLine</title>
+	<style type="text/css">
+		body{
+			margin-top: 80px;
+			background: #a5acb8;
+		}
+		main{
+			margin: auto;
+			background: #4c3963;
+			width: 20%;
+			border-radius: 20px;
+			color: white;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		#formulario{
+			padding: 20px;
+		}
+
+		h2{
+			margin: 0px 0px 3px 0px;
+		}
+		.menu{
+			width: 100%;
+			border: 2px solid #6a3f9e;
+			border-radius: 10px;
+			height: 30px;
+			margin-bottom: 3px;
+			font-family: 'Roboto', sans-serif;
+			text-align: center;
+			font-size: 16px;
+		}
+
+		.bts{
+			width: 40%;
+			height: 30px;
+			border: 2px solid #6a3f9e;
+			border-radius: 5px;
+			font-size: 18px;
+			background: #7b708a;
+			color: #fff;
+			cursor: pointer;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		.linksOPC{
+			margin-top: 15px;
+			padding: 3px;
+			background: #7b708a;
+			width: 100%;
+			border-radius: 15px;
+			color: white;
+			font-size: 10px;
+			text-align: center;
+			margin-bottom: -6px;
+			cursor: pointer;
+		}
+
+		#pass{
+			margin-bottom: 10px;
+		}
+
+		#logar{
+			margin-left: 18%;
+		}
+
+		.linksOPC:hover{
+			transition: 0.5s;
+			width: 60%;
+			margin-left: 20%;
+		}
+
+		#submit:hover{
+			border: 2px solid white;
+			background: #5218b8;
+			color: #fff;
+		}
+
+		#logar:hover{
+			margin-left: 0px;
+			width: 57%;
+			transition: 0.5s;
+			border: 2px solid white;
+			background: #5218b8;
+			color: #fff;
+		}
+
+		.menu:hover{
+			border: 2px solid #576478;
+		}
+	</style>
+</head>
+<body>
+<main>
+	<div id="formulario">
+		<form>
+			<div class="div-from">
+				<h2> Login: </h2>
+				<input class="menu" type="text" name="Login" placeholder="ex: teste01">
+			</div>
+			<div class="div-from">
+				<h2> Senha: </h2>
+				<input id="pass" class="menu" type="password" name="Senha" placeholder="ex: 123123">
+			</div>
+			<div>
+				<input id="submit" class="bts" type="reset" name="" value="Limpar">
+				<input id="logar" class="bts" type="submit" name="Logar" value="Logar">
+			</div>
+		</form>
+		<div>
+			<a href="#">
+				<div class="linksOPC">
+					Esqueci minha senha!
+				</div>
+			</a>
+			<a href="file:///C:/Users/Dante/Desktop/Projetos%20Desenvolvimento%20WEB/Estuto%20Forms/index.html">
+				<div class="linksOPC">
+					Novo Usuário!
+				</div>
+			</a>
+		</div>
+	</div>
+</main>
+</body>
+</html>
